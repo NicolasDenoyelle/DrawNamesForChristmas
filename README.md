@@ -12,7 +12,7 @@ An email is sent to each person with the peoples to gift. But they don't know wh
 Open [noel.py](noel.py) and update fields 'personnes', 'types' and mail configuration.
 
 ## Usage
-`python noel.py`
+`$> python noel.py`
 
 ## Output:
 
