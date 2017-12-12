@@ -8,6 +8,10 @@ If specified, they cannot offer to specific personnes (here p5 <-> p4, and p2 <-
 
 An email is sent to each person with the peoples to gift. But they don't know who will gift them.
 
+## Requirements
+
+This script requires a python interpretor and python-igraph library.
+
 ## Configuration
 Open [noel.py](noel.py) and update fields 'personnes', 'types' and mail configuration.
 
