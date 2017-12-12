@@ -4,29 +4,23 @@ import smtplib
 
 #Les personnes qui s'offrent des cadeaux et leur adresse email
 personnes = {
-    'Julie.D':{'email':'july_63@hotmail.fr'},
-    'Anne.G':{'email':'anne.gozard@outlook.fr'},
-    'Adrien.M':{'email':'adrien.membrez@romandie.com'},
-    'Pierre.D':{'email':'pierre.denoyelle@hotmail.fr'},
-    'Nicolas.D':{'email':'nico6391@hotmail.fr'}
+    'personne1':{''},
+    'personne2':{''}
 }
 
 #Ne pas offrir de cadeaux entre ces liens
 liens_a_eviter = {
-    'Nicolas.D': [],
-    'Julie.D' : ['Adrien.M'],
-    'Adrien.M' : ['Julie.D'],
-    'Pierre.D' : ['Anne.G'],
-    'Anne.G' : ['Pierre.D']
+    'personne1': [],
+    'personne2' : []
 }
 
 #Themes des cadeau à renseigner par personne
-types  = [('petit','Carnaval des saveurs'),('gros','Les roses sont rouges, les violettes sont bleus, emmene moi ou tu veux')]
+types  = [('taille1','theme1'),('taille2','theme2')]
 
 #Configuration pour l'envoi des mails.
 serveur_smtp=''      #'smtp.gmail.com'
 identifiant_smtp=''  #'nom@gmail.com'
-mot_de_passe_smtp='' #'motdepasse'
+mot_de_passe_smtp='' #'motdepass'e
 
 
 #########################################################################################################################
