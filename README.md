@@ -6,6 +6,8 @@ People cannot offer twice to the same personne.
 People offer and receive only one present of each type.
 If specified, they cannot offer to specific personnes (here p5 <-> p4, and p2 <->p3).
 
+An email is sent to each person with the peoples to gift. But they don't know who will gift them.
+
 ## Configuration
 Open [noel.py](noel.py) and update fields 'personnes', 'types' and mail configuration.
 
