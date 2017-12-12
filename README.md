@@ -10,7 +10,7 @@ If specified, they cannot offer to specific personnes (here p5 <-> p4, and p2 <-
 Open [noel.py](noel.py) and update fields 'personnes', 'types' and mail configuration.
 
 ## Usage
-python noel.py
+`python noel.py`
 
 ## Output:
 
