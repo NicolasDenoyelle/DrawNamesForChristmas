@@ -4,8 +4,8 @@ import smtplib
 
 #Les personnes qui s'offrent des cadeaux et leur adresse email
 personnes = {
-    'personne1':{''},
-    'personne2':{''}
+    'personne1':{'email':''},
+    'personne2':{'email':''}
 }
 
 #Ne pas offrir de cadeaux entre ces liens
