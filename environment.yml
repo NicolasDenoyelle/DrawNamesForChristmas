@@ -1,0 +1,3 @@
+name: secret_santa
+dependencies:
+  - python==3.10
